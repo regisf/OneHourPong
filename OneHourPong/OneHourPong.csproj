@@ -57,9 +57,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Paddle.cs" />
     <Compile Include="Ball.cs" />
+    <Compile Include="Score.cs" />
+    <Compile Include="StartScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Data\Square.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
 </Project>
